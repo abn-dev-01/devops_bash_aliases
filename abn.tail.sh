@@ -2,13 +2,9 @@
 #
 # TAIL aliases
 #
-# <<< INSERT HERE DOCKER ALIASES >> #
-
-alias tailcrm-telecom999='tail -n 999 -f ~/logs/telecom/crm-telecom-*'
-alias tailcrm-rest2222='tail -n 2222 -f ~/logs/crm-rest/logs/*the_cloud.log'
-alias tailcrm-monitoring='tail -n 999 -f ~/logs/monitoring/mappers-monitoring.log ~/logs/monitoring/the_cloud_monitoring.log'
-
-alias  tailsl='tail -n 100 -f /var/log/syslog'
-alias  tail10='tail -n 1000 '
-alias  tail05='tail -n 500 '
+alias  tailsl='tail -n 1000 -f /var/log/syslog'
+alias  ta5f='tail -n 500 -f '
+alias  ta10f='tail -n 1000 -f '
+alias  ta30f='tail -n 2000 -f '
+alias  ta55f='tail -n 5555 -f '
 
