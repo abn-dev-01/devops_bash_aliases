@@ -15,3 +15,4 @@ alias sutomcat9_catalina_stop='sudo /var/lib/tomcat9/bin/catalina.sh stop'
 alias	susctl_start='sudo systemctl start'
 alias	susctl_stop='sudo systemctl stop'
 alias	susctl_daereload='sudo systemctl daemon-reload'
+
