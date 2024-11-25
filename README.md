@@ -11,7 +11,7 @@ This are bunch of aliases for `linux/mac` OS shell (bash)
 
       mkdir ~/.bp/
       cd ~/.bp/
-      got clone git@github.com:abn-dev-01/devops_bash_aliases.git
+      git clone git@github.com:abn-dev-01/devops_bash_aliases.git
 
 In home directory should be `.bashrc` or `.bash_profile` files. 
 Find in it or add there these lines: 
