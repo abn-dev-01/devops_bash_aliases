@@ -4,7 +4,7 @@
 
 ## What is it? 
 
-This are bucn of aliases for linux/mac OS shell (bash)
+This are bunch of aliases for `linux/mac` OS shell (bash)
 
 
 ## How to use? 
