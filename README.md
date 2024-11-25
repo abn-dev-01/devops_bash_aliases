@@ -9,9 +9,8 @@ This are bunch of aliases for `linux/mac` OS shell (bash)
 
 ## How to use? 
 
-      mkdir ~/.bp/
-      cd ~/.bp/
-      git clone git@github.com:abn-dev-01/devops_bash_aliases.git
+      cd ~/
+      git clone https://github.com/abn-dev-01/devops_bash_aliases.git .bp/
 
 In home directory should be `.bashrc` or `.bash_profile` files. 
 Find in it or add there these lines: 
