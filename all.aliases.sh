@@ -10,3 +10,4 @@ source ~/.bp/abn.iptables.sh
 source ~/.bp/abn.git.sh
 source ~/.bp/abn.paths.sh
 source ~/.bp/abn.microk8s.sh
+source ~/.bp/abn.devops.sh
