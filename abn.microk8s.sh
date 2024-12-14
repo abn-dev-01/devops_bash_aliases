@@ -12,8 +12,13 @@ alias k8="kubectl "
 
 alias k8get="kubectl get "
 alias k8getpods="kubectl get pods "
+alias k8gp="kubectl get pods "
+alias k8gpwide="kubectl get pod -o wide "
 alias k8appfile="kubectl apply -f "
 alias k8delfile="kubectl delete -f "
+
+alias k8desc="kubectl describe "
+alias k8descservice="kubectl describe service"
 
 alias k8cre="k8 create "
 alias k8crens="k8 create namespace "
