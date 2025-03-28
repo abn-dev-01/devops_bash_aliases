@@ -9,7 +9,7 @@ alias k="kubectl "
 kn(){
   kubectl config set-context --current --namespace="$1"
 }
-
+alias kncur="kubectl config current-context"
 
 # alias as k8
 alias k8ctl="kubectl "
