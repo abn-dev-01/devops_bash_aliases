@@ -3,10 +3,17 @@
 # <> aliases
 #
 alias mk8status="microk8s status --wait-ready "
-
-# Kubernetes ~ K8S
 alias kubectl="microk8s kubectl "
 
+# Kubernetes ~ K8S
+alias k="kubectl "
+#alias kn="kubectl config set-context --current --namespace="
+kn(){
+  kubectl config set-context --current --namespace="$1"
+}
+
+
+# alias as k8
 alias k8ctl="kubectl "
 alias k8="kubectl "
 
