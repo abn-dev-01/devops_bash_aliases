@@ -9,6 +9,7 @@ alias gi-status='git status '
 alias gi-commit='git commit '
 alias gi-commit-auto='git commit -a'
 alias gi-help='git --help'
+alias gi-branch='git branch'
 
 # configs 
 alias gi-coglobal='git config --global '
