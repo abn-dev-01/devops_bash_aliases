@@ -5,8 +5,8 @@
 alias gi-add-it='git add .'
 alias gi-remote-add='git remote add '
 alias gi-push='git push '
-alias gi-status='git status'
-alias gi-commit='git commit'
+alias gi-status='git status '
+alias gi-commit='git commit '
 alias gi-commit-auto='git commit -a'
 alias gi-help='git --help'
 
