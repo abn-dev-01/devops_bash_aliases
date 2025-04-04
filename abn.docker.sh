@@ -27,3 +27,17 @@ alias   dcps='docker-compose ps'
 alias   dcimgs='docker-compose images'
 alias   dcup-d='docker-compose up -d '
 alias   dcup='docker-compose up '
+
+# add autocompletion for Docker & docker-compose
+# sudo curl -L https://raw.githubusercontent.com/docker/cli/master/contrib/completion/bash/docker -o /etc/bash_completion.d/docker
+# sudo curl -L https://raw.githubusercontent.com/docker/compose/1.29.2/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
+# 
+# restart :
+# source /etc/bash_completion.d/docker
+# source /etc/bash_completion.d/docker-compose
+
+# Add autocompletion for Alias
+complete -F _docker_compose dc
+complete -F _docker dk
+
+
