@@ -4,6 +4,6 @@
 #
 
 #alias  duhgrep="du -h|egrep 'Files|$1' "
-duhgrep(){
+dfhgrep(){
   df -h | egrep 'Files|$1'
 }
