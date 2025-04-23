@@ -11,8 +11,8 @@ source ~/.bp/abn.git.sh
 source ~/.bp/abn.paths.sh
 # microk8s is before k8s! file
 #source ~/.bp/abn.microk8s.sh
-source ~/.bp/abn.k8s.sh
-source ~/.bp/abn.k8s-helm.sh
-source ~/.bp/abn.k8s-autocompletion.sh
+#source ~/.bp/abn.k8s.sh
+#source ~/.bp/abn.k8s-helm.sh
+#source ~/.bp/abn.k8s-autocompletion.sh
 source ~/.bp/abn.devops.sh
 source ~/.bp/abn.tools.sh
