@@ -7,29 +7,29 @@ alias ena='su -'
 alias en='su -'
 alias suu='su -'
 
-alias   makepasswd='makepasswd --chars=12 --count=10'
+alias makepasswd='makepasswd --chars=12 --count=10'
 
-alias   psaxfugrep='ps axfu|grep '
+alias psaxfugrep='ps axfu|grep '
 
 #
 # lang
-alias   exp_lang_us='export LANG=en_US && LC_TYPE="en_US" '
+alias exp_lang_us='export LANG=en_US && LC_TYPE="en_US" '
 
 #
 # time 
-alias   timeupd='/usr/sbin/ntpdate 0.europe.pool.ntp.org 1.europe.pool.ntp.org 2.europe.pool.ntp.org 3.europe.pool.ntp.org'
+alias timeupd='/usr/sbin/ntpdate 0.europe.pool.ntp.org 1.europe.pool.ntp.org 2.europe.pool.ntp.org 3.europe.pool.ntp.org'
 
-alias   dfm='df -ma -T --sync'
-alias   dfh='df -ha -T --sync'
-alias    dfused_perc_sda1="df -h /dev/sda1 | awk 'NR==2 {print $5}'"
+alias dfm='df -ma -T --sync'
+alias dfh='df -ha -T --sync'
+alias dfused_perc_sda1="df -h /dev/sda1 | awk 'NR==2 {print $5}'"
 # create env.var before using this alias: al1=/dev/sda1; dfused_al1
-alias    dfused_perc_al1="df -h $al1 | awk 'NR==2 {print $5}'"
-alias    dfused_kbyte_al1="df -a $al1 -T | awk 'NR==2 {print $5}'"
+alias dfused_perc_al1="df -h $al1 | awk 'NR==2 {print $5}'"
+alias dfused_kbyte_al1="df -a $al1 -T | awk 'NR==2 {print $5}'"
 
-alias   fhost="cat /etc/hosts | egrep -i "
-alias  lssl='less /var/log/syslog'
-alias  cls='cd / && clear'
-alias   tps="top -Ss"
+alias fhost="cat /etc/hosts | egrep -i "
+alias lssl='less /var/log/syslog'
+alias cls='cd / && clear'
+alias tps="top -Ss"
 
 ###############################################
 # Some more aliases to avoid making mistakes:
@@ -63,6 +63,9 @@ alias egrep='egrep --color=auto'
 # fgrep is the same as grep -F, where -F specifies that the pattern should be treated as a fixed string rather than a regular expression.
 alias fgrep='fgrep --color=auto'
 
+# history commands 
+alias hi="history "
+alias higre="history|grep "
 
 
 
