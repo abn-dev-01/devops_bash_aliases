@@ -22,7 +22,9 @@ alias   dkcontlscreated='docker container ls -a --filter status=exited --filter 
 #        alias   dkrun-1cpg='docker run --rm --name 1c-pgsql -e POSTGRES_PASSWORD=docker -v /srv/pgsql/1c:/var/lib/postgresql/data -d -p 5432:5432 postgres:11.6'
 
 alias   dc='docker-compose'
-alias   dclogs='docker-compose logs -f --tail=1000'
+alias   dcl='docker-compose logs -f --tail=100 '
+alias   dcl1k='docker-compose logs -f --tail=1000 '
+alias   dclf='docker-compose logs -f '
 alias   dcps='docker-compose ps'
 alias   dcimgs='docker-compose images'
 alias   dcup-d='docker-compose up -d '
