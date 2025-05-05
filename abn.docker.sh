@@ -4,6 +4,7 @@
 #
 # <<< INSERT HERE DOCKER ALIASES >> #
 
+alias   dk='docker'
 alias   dkstop='docker stop'
 alias   dkpul='docker pull'
 alias   dkps='docker ps'
