@@ -39,5 +39,5 @@ alias	k8repl_apps="k8 get replicasets.apps "
 alias	k8depl_apps="k8 get deployments.apps "
 
 # Exec commands 
-alias k8exec_bash='function _k8exec_bash() { kubectl exec --it $1 -- bash; }; _k8exec_bash'
+alias k8exec_bash='function _k8exec_bash() { kubectl exec -it $1 -- bash; }; _k8exec_bash'
 
