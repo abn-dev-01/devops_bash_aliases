@@ -24,6 +24,7 @@ alias k8appfile="kubectl apply -f "
 alias k8delfile="kubectl delete -f "
 
 alias k8desc="kubectl describe "
+alias k8desc_pod='function _k8_desc_pod() { kubectl describe pod $1; }; _k8_desc_pod'
 alias k8descservice="kubectl describe service"
 
 alias k8cre="k8 create "
