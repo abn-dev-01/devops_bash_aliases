@@ -33,7 +33,11 @@ alias k8getns="k8 get namespaces "
 alias k8ns='function _kns() { kubectl config set-context --current --namespace=$1; }; _kns'
 
 # ReplicaSet
-alias	k8repl.apps="k8 get replicasets.apps "
+alias	k8repl_apps="k8 get replicasets.apps "
 
 # Deployments
-alias	k8depl.apps="k8 get deployments.apps "
+alias	k8depl_apps="k8 get deployments.apps "
+
+# Exec commands 
+alias k8exec_bash='function _k8exec_bash() { kubectl exec --it $1 -- bash; }; _k8exec_bash'
+
